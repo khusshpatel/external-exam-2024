@@ -1,0 +1,112 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 0;
+    background-image:url(https://cdn.cms-twdigitalassets.com/content/dam/developer-twitter/x-redesign-2024/WebDevHomePage-Black.png.twimg.2560.png);
+}
+.container {
+    max-width: 600px;
+    margin:auto;
+    padding: 200px;
+    
+}
+h1 {
+    text-align: center;
+    color : red;
+}
+.tweet-input {
+    margin-bottom: 20px;
+}
+h5{
+    display: flex;
+    justify-content: left;
+    margin-left:100px;
+    margin-right: 100px;
+    color:red;
+
+}
+h2{
+    color:red;
+    height: 5px;
+    font-weight: 80px;
+}
+
+p{
+    color:red;
+}
+a+a {
+    margin-left: 20px;
+  }
+
+textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none;
+}
+
+.char-count {
+    text-align: right;
+    margin-top: 5px;
+    color: #888;
+
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #1da1f2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0d95e8;
+}
+
+.tweet-container {
+    margin-top: 20px;
+}
+
+.tweet {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.tweet button {
+    background-color: #e0245e;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px 10px;
+}
+
+.tweet button:hover {
+    background-color: #c8102e;
+}
+
+.like-count {
+    margin-left: 10px;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+    height: 20px;
+    margin-left: 900px;
+    margin-top: 50px;
+  }
